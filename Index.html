@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../BOOTSTRAP/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="iconmoon/Iconstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejemplo 1 </title>
+</head>
+<body>
+
+<!-- header   -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <img src="img/me.jpg" alt="" class="img-navbar mr-3 rounded-circle">
+      <a class="navbar-brand" href="#">JoseAlber</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <!-- <a class="nav-link active" aria-current="page" href="#">Inicio</a> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#goabout">¿Quien soy yo?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#goHabilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gocv">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gocontacto">Contacto</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+<!-- Home  -->
+<scroll-page id="home"></scroll-page>
+<div class="banner container-fluid " id="section">
+  <div class=" container row mx-auto containerme">
+    <div class="col-1 my-5 socialnet" >
+      <a href="">
+        <img src="img/ista.png" alt="" class="mt-3">
+      </a>
+      <a href="">
+        <img src="img/face.png" alt="" class="mt-3">
+      </a>
+      <a href="">
+        <img src="img/git.png" alt="" class="mt-3">
+      </a>
+    </div>
+    <div class="col-6">
+      <h1 class="my-5">Hola!! <br> Soy <span class="text-info"> Jose Alberto </span>  <br> programador web</h1>
+      <p class="text-justify p-2 my-4">
+        Alto nivel de experiencia en diseño web, programación, produciendo trabajo de calidad  
+      </p>
+      <a href="#gocontacto" class="ml-1">
+        <button class="btn btn-primary "> <span>Contactame</span> <span class="ico icon-phone1"></span> </button>
+      </a>
+    </div>
+    <div class="col-5">
+      <img src="img/me.jpg" alt="" class="img-banner  mx-auto d-block img-thumbnail">
+    </div>
+  </div>
+    <div class="container row mx-auto mt-5">
+      <a href="#goabout" class="mx-auto mt-5 vermasbtn">Ver mas <i class="ico icon-chevron-thin-down"></i> </a>
+    </div>
+</div>  
+
+<!-- Acerca de mi  -->
+<scroll-page id="goabout"></scroll-page>
+<div class="container-fluid  aboutme">
+  <h1 class="text-center "> Acerca de mi  </h1>
+  <div class="container mx-auto row text-center">      
+    <div class="col-4">
+      <img src="img/me2.jpg" alt="" class="img-fluid me2">
+    </div>
+
+    <div class="col-8 p-5">
+      <p class="text-justify p-2">
+        Mi Nombre es <b> Jose Alberto Hernandez Hernandez </b> un apasionado por la tecnología y la ciencia ficción, 
+        Por lo que disfruto de aprender y escribir el código en varios lenguajes de programación, asi como de disfrutar 
+        de videojuegos y películas
+      </p>
+
+      <table class="table table-borderless mb-5">
+        
+        <thead>
+          <th>
+            <tr scope="col" class="fz-18">03 +</th>
+            <tr scope="col" class="fz-18">10 +</th>
+            <tr scope="col" class="fz-18">02 +</th>
+          </th>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Años de experiencia</td>
+            <td>Proyectos creados</td>
+            <td>Trabajos Obtenidos</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <a href="CV.html" class="ml-1 mt-4" new_blank>
+        <button class="btn btn-primary "> Ver Curriculum  <span class="ico icon-documents"></span> </button>
+      </a>
+  
+      <a href="" new_blank></a>
+
+    </div>    
+  </div>
+</div>
+
+
+<!-- Habilidades -->
+<scroll-page id="goHabilidades"></scroll-page>
+ 
+  <div class="container-fluid mt-5  container-blak py-2 text-white" id="">
+    <h1 class="text-center mt-5 mb-5"> Habilidades </h1>    
+    <div class="container mx-auto row text-center">
+      <div class="col-5">
+        <h3 class="text-left" > <span class="ico icon-code"></span> Programador Fronted</h3>
+        <p class="text-left mb-4 ml-5">Mas de 4 años</p>
+
+        <div class="container-fluid row p-6">
+          <span class=" text-left col-6" >HTML</span>
+          <span class="col-6 text-right">95 %</span>
+        </div>
+        <div class="bar mb-5">
+          <span class="prgress" style="width: 95%;"></span>          
+        </div>
+
+        <div class="container-fluid row p-6">
+          <span class=" text-left col-6" >CSS</span>
+          <span class="col-6 text-right">90 %</span>
+        </div>
+        <div class="bar mb-5">
+          <span class="prgress" style="width: 90%;"></span>          
+        </div>
+
+        <div class="container-fluid row p-6">
+          <span class=" text-left col-6" >JavaScript</span>
+          <span class="col-6 text-right">60 %</span>
+        </div>
+        <div class="bar mb-5">
+          <span class="prgress" style="width: 60%;"></span>          
+        </div>
+      </div>
+
+      <div class="col-2"></div>
+
+      <div class="col-5">
+        <h3 class="text-left " > <span class="ico icon-database"></span> Programador Backend</h3>
+        <p class="text-left mb-4 ml-5">Mas de 3 años</p>
+
+
+        <div class="container-fluid row p-6">
+          <span class=" text-left col-6" >PHP</span>
+          <span class="col-6 text-right">70 %</span>
+        </div>
+        <div class="bar mb-5">
+          <span class="prgress" style="width: 70%;"></span>          
+        </div>
+
+        <div class="container-fluid row p-6">
+          <span class=" text-left col-6" >MSQL</span>
+          <span class="col-6 text-right">60 %</span>
+        </div>
+        <div class="bar mb-5">
+          <span class="prgress" style="width: 60%;"></span>          
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mx-auto my-4 row text-center">
+      
+      <div class="col-5">
+        <h3 class="text-left" > <span class="ico icon-brush"></span> Diseñador</h3>
+        <p class="text-left mb-4 ml-5">Mas de 3 años</p>
+
+        <div class="container-fluid row p-6">
+          <span class=" text-left col-6" >BOOTSTRAP</span>
+          <span class="col-6 text-right">50 %</span>
+        </div>
+        <div class="bar mb-5">
+          <span class="prgress" style="width: 50%;"></span>          
+        </div>
+
+
+      </div>
+
+      <div class="col-7"> </div>
+    </div>
+
+    
+  </div>
+  
+<!-- Protafolio  -->
+  <scroll-page id="gocv"></scroll-page>
+  <div class="container-fluid mt-5 py-2 " id="">
+    <h1 class="text-center mt-5 "> Portafolio </h1>
+    <div class="container mx-auto  text-center">      
+        <p class="text-center p-2">
+          Estos son algunos de los proyectos creados por mi.
+        </p>
+        <div class="container-fluid row">
+          <div class="col-4 p-3 proyect">
+            <img src="img/proy/preview.png" class="img-fluid" alt="">
+            Portafolio profecional
+            <br>
+
+            <span class="icon-html-five2" style="color:#f39912;"></span>
+            <span class="icon-css3" style="color:#1299f3;"></span>
+            <span class="" style="color:#f5f10b;"><B>JS</B></span>
+
+          </div>
+          <div class="col-4 p-2 proyect">
+            <img src="img/proy/preview2.png" class="img-fluid" alt="">
+            Compilador de codigo
+            <br>
+
+            <span class="icon-html-five2" style="color:#f39912;"></span>
+            <span class="icon-css3" style="color:#1299f3;"></span>
+            <span class="" style="color:#f5f10b;"><B>JS</B></span>
+
+          </div>
+          <div class="col-4 p-2 proyect">
+            <img src="img/proy/preview2.png" class="img-fluid" alt="">
+            Juegos de azar, Piedra papel o tijeras, dados, monedas
+            <br>
+            <span class="icon-html-five2" style="color:#f39912;"></span>
+            <span class="icon-css3" style="color:#1299f3;"></span>
+            <span class="" style="color:#f5f10b;"><B>JS</B></span>
+
+          </div>          
+          <div class="col-4 p-2 proyect">
+            <img src="img/proy/preview2.png" class="img-fluid" alt="">
+            Gestor de tiendad de abarrotes
+            <br>
+            <span class="icon-html-five2" style="color:#f39912;"></span>
+            <span class="icon-css3" style="color:#1299f3;"></span>
+            <span class="" style="color:#f5f10b;"><B>JS</B></span>
+            <span class="" style="color:#840bf5;"><B>PHP</B></span>
+
+          </div>          
+          <div class="col-4 p-2 proyect">
+            <img src="img/proy/preview2.png" class="img-fluid" alt="">
+            Portafolio profecional
+
+          </div>          
+          <div class="col-4 p-2 proyect">
+            <img src="img/proy/preview2.png" class="img-fluid" alt="">
+            Portafolio profecional
+          </div>          
+
+        </div>    
+
+        <a href="CV.html" class="ml-1 mt-4" new_blank>
+          <button class="btn btn-primary  mt-5"> Ver Curriculum  <span class="ico icon-documents"></span> </button>
+        </a>
+    </div>
+  </div>
+
+
+<!-- Contacto  -->
+  <scroll-page id="gocontacto"></scroll-page>
+  <div class="container-fluid mt-5  container-white" id="section">
+
+    
+    <h1 class="text-center "> Contacto </h1>
+
+
+    <div class="container mx-auto mt-5 row">
+
+      <div class="col-4" >
+        <a href="" class="cont-link">
+          <img src="img/ista.png" alt="">
+          <span>Alberto Hernandez</span>
+        </a>
+        <a href="" class="cont-link">
+          <img src="img/face.png" alt="">
+          <span>Alberto Hernandez</span>
+        </a>
+        <a href="" class="cont-link">
+          <img src="img/git.png" alt="">
+          <span>Alberto Hernandez</span>
+        </a>
+
+      </div>
+
+
+      <div class="col-8">
+        <div class="mb-3 row">
+
+          <div class="col-6 ">
+            <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" >
+          </div>
+          
+          <div class="col-6 ">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" >
+          </div>
+          
+        </div>
+          
+          <div class="mb-3">
+            <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribeme un mensaje"></textarea>
+          </div>
+          
+          <button class="btn btn-primary mx-auto" >Enviar Mensaje <span class="ico icon-direction"></span> </button>
+        </div>
+        
+      </div>
+    </div>  
+    
+    
+<!-- footer -->
+<!-- <div class="container-fluid border mb-3 mt-3"> Pie de pagina</div> -->
+
+<script src="/docs/4.0/assets/js/vendor/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="/docs/4.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+
+
+</body>
+
+
+
+</html>
+
+

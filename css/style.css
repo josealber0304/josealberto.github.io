@@ -1,0 +1,159 @@
+
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin-top: 50px;
+    /* background: url(../img/banner.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.fz-18{
+    font-size: 30px;
+}
+.container-blak{
+    background: rgb(14, 28, 43) ;
+}
+
+.container-white{
+    background: rgb(255, 255, 255) ;
+}
+
+.hola{
+    font-size: 50px;
+}
+
+.img-navbar{
+    width: 30px;
+}
+
+
+.img-banner{
+    max-width: 500px;
+    border-radius: 50% 30px 50% 30px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+#section{
+    height: calc( 100vh - 300px );
+}
+
+.containerme{
+    margin-top: calc( (100vh - 600px) / 2 );
+}
+
+.socialnet img{
+    width: 30px;
+}
+
+.vermasbtn span{
+    transform: rotate(45deg);
+
+}
+
+.vermasbtn{
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+.vermasbtn:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: #007bff;
+}
+
+.aboutme{
+    margin-top: 120px;
+}
+
+.me2{
+    border-radius: 40px 50% 30% 40%;
+}
+
+.cont-link {
+    text-decoration: none;
+     width: 100%;
+     display: block;
+     margin: 5px;
+}
+
+.cont-link img{
+    width: 30px;
+}
+
+
+
+
+/* barras de porcentaje de prgreso */
+
+.bar{
+    width: 100%;
+    /* padding: 10px; */
+    background: #fff;
+    border-radius: 3px;
+}
+
+.bar .prgress{
+    /* height: 3px; */
+    display: block;
+    padding: 4px;
+    border-radius:3px 0px 0px 3px;
+    background: #007bff;
+}
+
+
+
+
+
+
+/* estilos del curriculum vitae */
+
+.dcv{
+    max-width: 1100px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+
+
+.border-cv{
+    background: #17a2b8;
+}
+
+.mecv{
+    width: 250px;
+}
+
+
+.btn-back-home{
+    display: block;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.ico{
+    position: relative;
+    bottom: -3px;
+}
+
+
+.proyect{
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    /* box-sizing: border-box; */
+}
+.proyect:hover{
+    /* background: rgba(203, 236, 255, 0.507); */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(51, 51, 51, 0.2);
+    z-index: 100;
+}
